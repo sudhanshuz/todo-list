@@ -1,0 +1,82 @@
+.ToDo-List-container{
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 80rem;
+  border: 1px solid black;
+  min-height: 50rem;
+  background-color: black;
+  border-radius: 1rem;
+}
+
+.todo-form{
+  display: flex;
+  width: 100%;
+  font-size: 2rem;
+  color: orange;
+  margin-top: 1rem;
+  gap: 2rem;
+}
+
+.todo-form input{
+  border: 2px solid orangered;
+  background-color: whitesmoke;
+  font-size: 3.5rem;
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  color: orangered;
+}
+
+.todo-form button{
+  border: 2px solid orangered;
+ border-radius: 1rem;
+ background-color:whitesmoke; 
+ padding: 1rem;
+ cursor: pointer;
+ font-weight: 600;
+ font-size: 3rem;
+ color: orangered;
+}
+
+.todo-form button:hover{
+background-color: gray;
+color: white;
+font-weight: 600;
+}
+
+.task-div{
+  background-color:grey;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(117, 110, 110, 0.856);
+  border-radius: 1rem;
+  color: orangered;
+}
+
+.todo-text{
+  font-size: 2.5rem;
+  color: white;
+}
+.icons{
+  display: flex;
+  gap: 3rem;
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: orangered;
+
+}
+
+.complete{
+  text-decoration: line-through black;
+
+  opacity: 0.5;
+  background-color:rgba(153, 255, 0, 0.89);
+}
+.hide{
+  display: none;
+}
